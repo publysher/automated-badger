@@ -1,4 +1,4 @@
-FROM nginx
+FROM nginx:alpine
 MAINTAINER yigal@publysher.nl
 
 COPY index.html /usr/share/nginx/html
