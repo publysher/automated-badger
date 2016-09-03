@@ -1,0 +1,2 @@
+#!/usr/bin/env sh
+docker build -t ${IMAGE_NAME} --label org.label-schema.vcs-ref=${GIT_SHA1}  --label org.label-schema.build-date=$(date -u +"%Y-%m-%dT%H:%M:%SZ") .
